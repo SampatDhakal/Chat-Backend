@@ -17,7 +17,7 @@ const server = require('http').createServer(app);
 const PORT = 8000;
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'https://note-keeper-api.onrender.com',
+    origin: 'https://chat-app-api-nofc.onrender.com',
     methods: ['GET', 'POST']
   }
 })
